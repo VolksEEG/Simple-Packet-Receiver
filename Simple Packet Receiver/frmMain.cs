@@ -26,7 +26,7 @@ namespace Simple_Packet_Receiver
 
     public partial class FrmMain : Form
     {
-        private SerialPort serialPort = new SerialPort(); // = new SerialPort();
+        private SerialPort serialPort = new SerialPort(); 
         private int numPacketsReceived = 0;
         private SimplePacketParser packetizer = new SimplePacketParser();
         private SimplePacket packetBuffer = new SimplePacket();
